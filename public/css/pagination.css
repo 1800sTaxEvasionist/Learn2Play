@@ -1,0 +1,43 @@
+.page-item.active .page-link{
+    z-index: 3;
+    color: #f8f9fa !important  ;
+    background-color: #6f42c1 !important;
+    border-color: transparent !important;
+    border-radius: 50%;
+    padding: 6px 12px;
+}
+
+.page-link{
+    z-index: 3;
+    color: #f8f9fa !important;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    padding: 6px 12px !important;
+}
+
+.page-link:hover{
+    z-index: 3;
+    color: #f8f9fa !important  ;
+    background-color: #6f42c1 !important;
+    border-color: transparent !important;
+    border-radius: 50%;
+    padding: 6px 12px;
+}
+
+.page-item:first-child .page-link{
+    border-radius: 30% !important;
+}
+
+.page-item:last-child .page-link{
+    border-radius: 30% !important;   
+}
+
+.pagination li{
+    padding: 3px;
+}
+
+.disabled .page-link{
+    color: #212529 !important;
+    opacity: 0.0 !important;
+}
