@@ -1,35 +1,34 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><a href="https://learn2play-socs.000webhostapp.com" target="_blank"><img src="public/img/ReadMe.md_Learn2Play_Logo.png" width="147.75"></a><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## About Learn2Play
 
-## About Laravel
+Learn2Play is a web-based community app made with Laravel for the gaming community where they can post any guides on any games they like
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Technologies
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Laravel 8
+- PHP 8
+- Composer
+- Bootstrap 5
+- Microsoft Visual Studio Code
+- XAMPP
+- phpMyAdmin
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Launch
 
-## Learning Laravel
+If you haven't already, you can download both <a href="https://www.php.net/downloads.php" target="_blank">PHP</a> and <a href="https://getcomposer.org/download/" target="_blank">Composer</a> by clicking the link provided and the site will guide you through the installation process. It is recommended that you match the version mentioned above
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Run XAMPP
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+First, you need to run XAMPP and start both Apache and MySQL. Doing so will enable you to access the project and phpMyAdmin from your browser.
 
-## Laravel Sponsors
+### Creating Database
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Head to your browser and enter <a href="https://localhost/phpmyadmin" target="_blank">https://localhost/phpmyadmin</a>. Next, create a database named 'Learn2Play' then open the directory of the project, make sure you are inside the project folder, right click on an empty space and choose 'Open in Terminal' and type in ```php artisan migrate:fresh```.
+
+### Running the Project
+
+To run the project, type in ```php artisan serve``` on the terminal, then head to your browser and enter <a href="https://localhost:8000" target="_blank">https://localhost:8000</a> or https://192.168.100.0
 
 ### Premium Partners
 
